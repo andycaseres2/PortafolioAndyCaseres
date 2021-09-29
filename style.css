@@ -720,4 +720,23 @@ footer span a:hover {
     font-size: 23px;
     line-height: 38px;
   }
+
+  .about .about-content .right p {
+    font-size: 18px;
+    width: 95%
+    position: relative;
+  }
+  .text {
+    text-align: center;
+  }
+  .about .about-content .right{
+    right: 0px;
+    padding: 15px 15px;
+  }
+
+  .title::after{
+    line-height : 15px;
+  }
+
 }
+
