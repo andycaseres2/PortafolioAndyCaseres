@@ -601,11 +601,41 @@ footer span a:hover {
     height: 350px;
     width: 350px;
   }
+  .about .about-content .right p {
+    font-size: 18px;
+    width: 95%;
+  }
+  .text {
+    text-align: center;
+  }
+  .about .about-content .right {
+    right: 0px;
+    padding: 15px 15px;
+  }
+
+  .title::after {
+    line-height: 15px;
+  }
 }
 
 @media (max-width: 991px) {
   .max-width {
     padding: 0 50px;
+  }
+  .about .about-content .right p {
+    font-size: 18px;
+    width: 95%;
+  }
+  .text {
+    text-align: center;
+  }
+  .about .about-content .right {
+    right: 0px;
+    padding: 15px 15px;
+  }
+
+  .title::after {
+    line-height: 15px;
   }
 }
 @media (max-width: 947px) {
@@ -671,6 +701,21 @@ footer span a:hover {
     width: 100%;
     margin-bottom: 35px;
   }
+  .about .about-content .right p {
+    font-size: 18px;
+    width: 95%;
+  }
+  .text {
+    text-align: center;
+  }
+  .about .about-content .right {
+    right: 0px;
+    padding: 15px 15px;
+  }
+
+  .title::after {
+    line-height: 15px;
+  }
 }
 
 @media (max-width: 690px) {
@@ -688,6 +733,21 @@ footer span a:hover {
   }
   .services .serv-content .card {
     width: 100%;
+  }
+  .about .about-content .right p {
+    font-size: 18px;
+    width: 95%;
+  }
+  .text {
+    text-align: center;
+  }
+  .about .about-content .right {
+    right: 0px;
+    padding: 15px 15px;
+  }
+
+  .title::after {
+    line-height: 15px;
   }
 }
 
@@ -723,20 +783,17 @@ footer span a:hover {
 
   .about .about-content .right p {
     font-size: 18px;
-    width: 95%
-    position: relative;
+    width: 95%;
   }
   .text {
     text-align: center;
   }
-  .about .about-content .right{
+  .about .about-content .right {
     right: 0px;
     padding: 15px 15px;
   }
 
-  .title::after{
-    line-height : 15px;
+  .title::after {
+    line-height: 15px;
   }
-
 }
-
