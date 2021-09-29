@@ -112,14 +112,13 @@ section .title::after {
 .navbar.sticky .logo a span {
   color: rgb(255, 255, 255);
 }
-
 .navbar .menu li {
   list-style: none;
   display: inline-block;
 }
 .navbar .menu li a {
   display: block;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: 20px;
   font-weight: 500;
   margin-left: 25px;
@@ -130,6 +129,9 @@ section .title::after {
 }
 .navbar.sticky .menu li a:hover {
   color: rgb(255, 255, 255);
+}
+.navbar .menu.active {
+  background-color: #2e2ed2dc;
 }
 
 /* menu btn styling */
