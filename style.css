@@ -754,9 +754,8 @@ footer span a:hover {
 @media (max-width: 690px) {
   .home {
     display: flex;
-    background: url("images/banner2.jpg") no-repeat center;
+    background: url("images/banner2.jpg") center;
     height: 100vh;
-    background-size: fixed !important;
     color: rgb(0, 0, 0);
     min-height: 500px;
     background-attachment: fixed;
