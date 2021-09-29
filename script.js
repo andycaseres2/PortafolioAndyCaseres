@@ -112,28 +112,28 @@ function sendmail(nombre, telefono, correo, mensaje) {
 
 function success() {
   swal({
-    title: "Good job!",
-    text: "You clicked the button!",
+    title: "Excelente!",
+    text: "Te Contactare lo antes posible!",
     icon: "success",
-    button: "Aww yiss!",
+    button: "Ok!",
   });
   limpiarForm();
 }
 
 function error() {
   swal({
-    title: "Good job!",
-    text: "You clicked the button!",
-    icon: "success",
-    button: "Aww yiss!",
+    title: "Error!",
+    text: "Hubo un Error!",
+    icon: "error",
+    button: "Ok!",
   });
 }
 
 function ops() {
   swal({
-    title: "Good job!",
-    text: "You clicked the button!",
+    title: "Oops!",
+    text: "Algo Salio Mal!",
     icon: "error",
-    button: "Aww yiss!",
+    button: "Ok!",
   });
 }
