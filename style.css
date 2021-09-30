@@ -370,30 +370,14 @@ section .title::after {
   background: lightgrey;
   position: relative;
 }
-.skills .skills-content .right .line::before {
-  content: "";
-  position: absolute;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background: #2e2ed2;
+.hab {
+  font-size: 70px;
+  color: #010129;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.skills-content .right .html::before {
-  width: 80%;
-}
-.skills-content .right .css::before {
-  width: 70%;
-}
-.skills-content .right .js::before {
-  width: 80%;
-}
-.skills-content .right .php::before {
-  width: 60%;
-}
-.skills-content .right .mysql::before {
-  width: 60%;
-}
-
 /* teams section styling */
 .enlace {
   color: #fff;
