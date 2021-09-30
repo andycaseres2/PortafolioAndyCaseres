@@ -118,17 +118,21 @@ section .title::after {
 }
 .navbar .menu li a {
   display: block;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: 20px;
   font-weight: 500;
   margin-left: 25px;
   transition: color 0.3s ease;
 }
 .navbar .menu li a:hover {
-  color: #2e2ed2;
+  color: #ffffff;
 }
 .navbar.sticky .menu li a:hover {
   color: rgb(255, 255, 255);
+}
+
+.navbar .menu ul {
+  background-color: #2e2ed2;
 }
 
 /* menu btn styling */
@@ -682,7 +686,7 @@ footer span a:hover {
     width: 100%;
     left: -100%;
     top: 0;
-    background: #111;
+    background: #2e2ed2e5;
     text-align: center;
     padding-top: 80px;
     transition: all 0.3s ease;
