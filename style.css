@@ -225,6 +225,9 @@ section .title::after {
 }
 
 /* about section styling */
+.about .title {
+  top: 40px;
+}
 .about .title::after {
   content: "quien soy";
 }
@@ -237,11 +240,14 @@ section .title::after {
   position: relative;
   object-fit: cover;
   border-radius: 6px;
+  left: 50px;
+  bottom: 80px;
 }
 .about .about-content .right {
   width: 55%;
   position: relative;
   right: 20px;
+  bottom: 50px;
 }
 .about .about-content .right .text {
   font-size: 30px;
@@ -258,7 +264,7 @@ section .title::after {
 .about .about-content .right a {
   display: inline-block;
   background: #2e2ed2;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 20px;
   font-weight: 500;
   padding: 10px 30px;
@@ -328,12 +334,13 @@ section .title::after {
   width: calc(50% - 30px);
 }
 .skills .skills-content .left .text {
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 600;
   margin-bottom: 10px;
 }
 .skills .skills-content .left p {
   text-align: justify;
+  font-size: 18px;
 }
 .skills .skills-content .left a {
   display: inline-block;
@@ -372,11 +379,17 @@ section .title::after {
 }
 .hab {
   font-size: 80px;
-  color: #2e2ed2;
+  color: #080808;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.hab i:hover {
+  color: #2e2ed2;
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 /* teams section styling */
 .enlace {
@@ -553,7 +566,7 @@ section .title::after {
   align-items: center;
 }
 .right form .button-area button {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   display: block;
   width: 160px !important;
   height: 45px;
