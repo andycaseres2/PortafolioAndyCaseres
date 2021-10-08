@@ -816,6 +816,10 @@ footer span a:hover {
   .skills .skills-content .left .text {
     font-size: 19px;
   }
+  .about .about-content .left img {
+    left: -5px;
+    top: 20px;
+  }
   .contact .right form .fields {
     flex-direction: column;
   }
@@ -895,6 +899,10 @@ footer span a:hover {
   .about .about-content .right p {
     font-size: 18px;
     width: 95%;
+  }
+  .about .about-content .left img {
+    left: -5px;
+    top: 20px;
   }
   .text {
     text-align: center;
