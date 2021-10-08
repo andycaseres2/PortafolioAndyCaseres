@@ -603,7 +603,6 @@ footer span a:hover {
 @media (max-width: 1104px) {
   .home {
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
     height: 100vh;
     background-size: cover;
     color: rgb(0, 0, 0);
@@ -635,7 +634,6 @@ footer span a:hover {
 @media (max-width: 991px) {
   .home {
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
     height: 100vh;
     background-size: cover;
     color: rgb(0, 0, 0);
@@ -665,7 +663,6 @@ footer span a:hover {
 @media (max-width: 947px) {
   .home {
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
     height: 100vh;
     background-size: cover !important;
     color: rgb(0, 0, 0);
@@ -755,7 +752,6 @@ footer span a:hover {
 @media (max-width: 690px) {
   .home {
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
     height: 100vh;
     background-size: cover;
     color: rgb(0, 0, 0);
@@ -798,7 +794,6 @@ footer span a:hover {
 @media (max-width: 500px) {
   .home {
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
     height: 100vh;
     background-size: cover;
     color: rgb(0, 0, 0);
@@ -859,7 +854,6 @@ footer span a:hover {
 @media (max-width: 375px) {
   .home {
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
     height: 100vh;
     background-size: cover;
     color: rgb(0, 0, 0);
