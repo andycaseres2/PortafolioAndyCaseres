@@ -225,11 +225,9 @@ section .title::after {
 }
 
 /* about section styling */
-.title{
-  left: 200px;
-}
 .about .title {
   top: 40px;
+  left: 200px;
 }
 .about .title::after {
   content: "quien soy";
