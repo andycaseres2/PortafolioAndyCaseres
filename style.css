@@ -742,7 +742,7 @@ footer span a:hover {
   }
 
   .about .title {
-    left: 60px !important;
+    left: 60px;
     }
   .text {
     text-align: center;
@@ -795,7 +795,7 @@ footer span a:hover {
     right: 0px;
     padding: 15px 15px;
   }
-
+ 
   .title::after {
     line-height: 15px;
   }
