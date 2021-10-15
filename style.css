@@ -737,6 +737,13 @@ footer span a:hover {
     font-size: 20px;
     width: 95%;
   }
+  .about .about-content .left img {
+    top: 20px;
+  }
+
+  .about .title {
+    left: 60px !important;
+    }
   .text {
     text-align: center;
   }
@@ -780,6 +787,7 @@ footer span a:hover {
     font-size: 18px;
     width: 95%;
   }
+
   .text {
     text-align: center;
   }
@@ -810,6 +818,7 @@ footer span a:hover {
   .home .home-content .text-3 {
     font-size: 27px;
   }
+ 
   .about .about-content .right .text,
   .skills .skills-content .left .text {
     font-size: 19px;
@@ -847,6 +856,9 @@ footer span a:hover {
   .about .about-content .right {
     right: 0px;
     padding: 15px 15px;
+  }
+   .about .title{
+  left: 0px;
   }
 
   .title::after {
@@ -908,6 +920,9 @@ footer span a:hover {
   .about .about-content .right {
     right: 0px;
     padding: 15px 15px;
+  }
+  .about .title{
+  left: 0px;
   }
 
   .title::after {
